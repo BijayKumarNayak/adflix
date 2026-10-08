@@ -16,6 +16,7 @@ import {
   X,
   Zap,
 } from "lucide-react";
+import heroimage from "./assets/hero_img.png"
 
 const services = [
   {
@@ -293,7 +294,7 @@ function App() {
         {/* Image */}
         <div className="absolute inset-[12%] overflow-hidden rounded-[2.5rem] border border-white/10 bg-linear-to-br from-violet-600/20 via-[#111118] to-cyan-500/10 shadow-2xl shadow-violet-900/20">
           <img
-            src="/src/assets/hero_img.png"
+            src={heroimage}
             alt="Digital marketing analytics"
             className="h-full w-full object-cover"
           />
